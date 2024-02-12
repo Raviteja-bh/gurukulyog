@@ -1313,10 +1313,25 @@ details[open] .control-icon-expand {
 	text-decoration: none;
 	color: white;
 	margin-bottom: 150px;
+	height: fit-content;
 }
 
 .row1 {
 	align-self: center;
+}
+
+@media (max-width: 800px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.row1 {
+		margin-bottom: 25px;
+	}
+
+	#img-text {
+		margin-bottom: 5px;
+	}
 }
 
 /*image text section end*/
