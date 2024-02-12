@@ -426,6 +426,10 @@ section {
 	#play {
 		padding-left: 100px;
 	}
+
+		.category-head {
+			font-size: 1.2rem;
+  }
 }
 
 .app {
@@ -1327,15 +1331,29 @@ details[open] .control-icon-expand {
 @media (max-width: 800px) {
 	.container {
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	.row1 {
 		margin-bottom: 25px;
 	}
 
-	#img-text {
-		margin-bottom: 5px;
+	#row2 {
+		width: 100%;
+  height: auto;
 	}
+
+	#img-text {
+		margin: -27px;
+		margin-top: 10px;
+	}
+}
+
+.img_header_text {
+	text-decoration: none;
+	text-align: center;
+	height: fit-content;
+	color: white;
 }
 
 /*image text section end*/
