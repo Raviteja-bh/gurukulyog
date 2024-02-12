@@ -2,14 +2,14 @@
 <?php
 // Replace these with your actual PhonePe API credentials
 
-$merchantId = 'PGTESTPAYUAT'; // sandbox or test merchantId
-$apiKey="099eb0cd-02cf-4e2a-8aca-3e6c6aff0399"; // sandbox or test APIKEY
+$merchantId = 'PGTESTPAYUAT'; 
+$apiKey="099eb0cd-02cf-4e2a-8aca-3e6c6aff0399"; 
 $redirectUrl = 'http://localhost/funngro-main/';
 
 // Set transaction details
 $order_id = uniqid(); 
-$name="Demo site";
-$email="rockster@gmail.com";
+$name="Demo-gurukulyog";
+$email="demo_gurukulyog@gmail.com";
 $mobile=9999999999;
 $amount = 299; // amount in INR
 $description = 'Payment for Product/Service';
@@ -17,7 +17,7 @@ $description = 'Payment for Product/Service';
 
 $paymentData = array(
     'merchantId' => $merchantId,
-    'merchantTransactionId' => "MT7850590068188104", // test transactionID
+    'merchantTransactionId' => "MT7850590068188104", 
     "merchantUserId"=>"MUID123",
     'amount' => $amount*100,
     'redirectUrl'=>$redirectUrl,

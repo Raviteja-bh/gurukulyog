@@ -619,6 +619,10 @@ section {
 		margin-top: 0;
 	}
 
+	#project-head {
+		font-size: 2rem;
+}
+
 
 }
 
@@ -757,7 +761,7 @@ section {
 	}
 
 	#textImg {
-		font-size: 1.2rem;
+		font-size: 0.8rem;
 	}
 
 

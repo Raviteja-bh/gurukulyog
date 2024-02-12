@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Funngro</title>
+    <title>Gurukulyog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
@@ -87,11 +87,9 @@
                     <a href="#" class="nav-link">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="phonepe.php">
-                    <button class="btn" type="submit">Enroll NOW/₹299
+                    <button class="btn" onclick="phonepe()" type="submit">Enroll NOW/₹299
                         <img src="assets/user.png" alt="user">
                     </button>
-                </a>
                 </li>
             </ul>
 
@@ -131,7 +129,7 @@
     </section>
     <section class="project-categories">
         <div class="item-head upperText">
-            <h2 class="project-head">You will learn in this workshop</h2>
+            <h2 class="project-head" id="project-head">You will learn in this workshop</h2>
             <div id="upperTextBox"></div>
             <div class="textBox">
                 <h3 class="category-head">Living with diabetes is not a limitation, but an opportunity to live healthier and stronger.</h3>
@@ -393,6 +391,14 @@
     </footer>
 
     <script src="script.js"></script>
+    <script type="text/javascript">
+        function phonepe() {
+            if(window.location.href === "http://localhost/funngro-main/"){
+               window.location.href = "phonepe.php";
+            }
+        }
+
+    </script>
 </body>
 
 </html>
