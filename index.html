@@ -104,18 +104,18 @@
         <div class="section-img">
             <div class="slider">
                 <img id="slide1" class="img-slider" src="assets/images/diabetes1.jpg" alt="slide1">
-                <div class="text-img">
+                <div class="text-img" id="text-img">
                     <h4 id="textImg">Take Control of You Diabetes</h4>
                     <p>Join Our Online Workshop!</p>
                 </div>
                 <img id="slide2" class="img-slider" src="assets/images/diabetes2.jpg" alt="slide2">
-                <div class="text-img">
+                <div class="text-img" id="text-img">
                     <h4 id="textImg">Empowering you to manage diabetes and live a healthy life</h4>
                     <p>Join us today!
                     </p>
                 </div>
                 <img id="slide3" class="img-slider" src="assets/images/diabetes3.jpg" alt="slide3">
-                <div class="text-img">
+                <div class="text-img" id="text-img">
                     <h4 id="textImg">Diabetes is all about managing your lifestyle, not just your blood sugar.</h4>
                     <p>Join us right away!</p>
                 </div>
@@ -132,8 +132,7 @@
             <h2 class="project-head" id="project-head">You will learn in this workshop</h2>
             <div id="upperTextBox"></div>
             <div class="textBox">
-                <h3 class="category-head">Living with diabetes is not a limitation, but an opportunity to live healthier and stronger.</h3>
-                
+                <h3 class="category-head" id="category-head">Living with diabetes is not a limitation, but an opportunity to live healthier and stronger.</h3>
             </div>
             <div class="line inside"></div>
         </div>
@@ -397,9 +396,8 @@
     <script src="script.js"></script>
     <script type="text/javascript">
         function phonepe() {
-            if(window.location.href === "https://raviteja-bh.github.io/gurukulyog/"){
-                console.log("hello");
-               window.location.href = "phonepe.php";
+            if(window.location.href === "http://localhost/funngro-main/"){
+               window.open("phonepe.php", "_blank");
             }
         }
 
